@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <!--필요한 메타태그-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--부트스트랩 CSS-->
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}">
+    <!--sub CSS -->
+    <link rel="stylesheet" type="text/css" th:href="@{/style.css}">
+  <title>Hello, sbb!</title>
+</head>
+<body>
+<!--삽입될 내용 시작-->
+<th:block layout:fragment="content"></th:block>
+<!--삽입될 내용 끝-->
+</body>
+</html>
